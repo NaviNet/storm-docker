@@ -1,5 +1,5 @@
-FROM wurstmeister/storm:0.9.3
-MAINTAINER Wurstmeister
+FROM jwhite/storm:0.9.3
+MAINTAINER jwhite
 
 RUN /usr/bin/config-supervisord.sh nimbus 
 RUN /usr/bin/config-supervisord.sh drpc

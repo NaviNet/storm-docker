@@ -1,5 +1,5 @@
-FROM wurstmeister/storm:0.9.3
-MAINTAINER Wurstmeister
+FROM jwhite/storm:0.9.3
+MAINTAINER jwhite
 
 EXPOSE 6700
 EXPOSE 6701
